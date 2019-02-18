@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Tableless</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+
+<div class="main">
+
+	<header class="header">
+	<div class="limit">
+
+		<menu type="list">
+			<li><a href="#" class="active">Blog</a></li>
+			<li><a href="#">Serviços</a></li>
+			<li><a href="#">Fórum</a></li>
+			<li><a href="#">Vídeos</a></li>
+			<li><a href="#">Podcasts</a></li>
+			<li><a href="#">Nosso livro</a></li>
+			<li><a href="#">Downloads</a></li>
+			<li><a href="#">Contato</a></li>
+		</menu>
+
+		<ul class="socialLinks">
+			<li><a href="#" class="ico-twitter">Twitter</a></li>
+			<li><a href="#" class="ico-facebook">Facebook</a></li>
+			<li><a href="#" class="ico-rss">RSS Feed</a></li>
+		</ul>
+
+		<h1 class="logo"><a href="#">Tableless Padrões Web</a></h1>
+
+		<form role="search" method="get" id="searchform" action="http://tableless.com.br">
+			<fieldset>
+				<label class="screen-reader-text" for="s">
+					<span>Buscar</span>
+					<input type="text" value="" name="s" id="s">
+				</label>
+				<input type="submit" id="searchsubmit" value="Buscar">
+			</fieldset>
+		</form>
+
+		<nav class="menu">
+			<ul class="limit">
+				<li><a href="#">Acessibilidade</a></li>
+				<li class="active"><a href="#">CSS3</a></li>
+				<li><a href="#">HTML5</a></li>
+				<li><a href="#">Wordpress</a></li>
+				<li><a href="#">Internet Móvel</a></li>
+				<li><a href="#">Javascript</a></li>
+				<li><a href="#">JQuery</a></li>
+				<li><a href="#">SEO</a></li>
+				<li><a href="#">Mercado</a></li>
+				<li><a href="#">Artigos</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	<section class="highlights">
+	<div class="limit">
+		<div>
+			<a href="#"><img src="img/img3.jpg"></a>
+			<time datetime="2013-10-13 19:00">13 de Outubro de 2013</time>
+			<a href="#" class="commentsNumber" title="Comentários">13</a>
+			<a href="#" class="categ">HTML5</a>
+			<h1><a href="#">Habilitando tags em fotos com JQuery</a></h1>
+		</div>
+		<div>
+			<a href="#"><img src="img/img6.jpg"></a>
+			<time datetime="2013-10-13 19:00">13 de Outubro de 2013</time>
+			<a href="#" class="commentsNumber" title="Comentários">13</a>
+			<a href="#" class="categ">Acessibilidade</a>
+			<h1><a href="#">História da Internet - Uma Timeline</a></h1>
+		</div>
+		<div>
+			<a href="#"><img src="img/img1.jpg"></a>
+			<time datetime="2013-10-13 19:00">13 de Outubro de 2013</time>
+			<a href="#" class="commentsNumber" title="Comentários">13</a>
+			<a href="#" class="categ">CSS3</a>
+			<h1><a href="#">Qual unidade utilizar - REM, EM ou PX</a></h1>
+		</div>
+		<div>
+			<a href="#"><img src="img/img2.jpg"></a>
+			<time datetime="2013-10-13 19:00">13 de Outubro de 2013</time>
+			<a href="#" class="commentsNumber" title="Comentários">13</a>
+			<a href="#" class="categ">HTML5</a>
+			<h1><a href="#">Flexbox, organizando seu layout</a></h1>
+		</div>
+		<div>
+			<a href="#"><img src="img/img4.jpg"></a>
+			<time datetime="2013-10-13 19:00">13 de Outubro de 2013</time>
+			<a href="#" class="commentsNumber" title="Comentários">13</a>
+			<a href="#" class="categ">Acessibilidade</a>
+			<h1><a href="#">Entendendo quais APIS (realmente) fazem parte do HTML5</a></h1>
+		</div>
+		<div>
+			<a href="#"><img src="img/img5.jpg"></a>
+			<time datetime="2013-10-13 19:00">13 de Outubro de 2013</time>
+			<a href="#" class="commentsNumber" title="Comentários">13</a>
+			<a href="#" class="categ">CSS3</a>
+			<h1><a href="#">Front-end concluído, como começar no Wordpress - Parte 1</a></h1>
+		</div>
+
+	</div>
+	</section>
+
+	<section class="listsArticles">
+	<div class="limit">
+		<h1>Artigos</h1>
+		<ul class="tabs">
+			<li><a href="#listRecents" data-target="#listRecents">Mais recentes</a></li>
+			<li><a href="#listComments" data-target="#listComments">Mais comentados</a></li>
+			<li><a href="#listPopulars" data-target="#listPopulars">Mais populares</a></li>
+		</ul>
+		<nav id="listRecents" class="list active">
+			<ul>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Internet Móvel</a>
+					<div>
+						<h2><a href="#">RECENTES Cuidado com invasões no Wordpress</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">CSS3</a>
+					<div>
+						<h2><a href="#">Retina.js - Imagens para telas retina</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Javascript</a>
+					<div>
+						<h2><a href="#">Principios para escrever CSS de forma consistente</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author"> Gabriel Nascimento</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">JQuery</a>
+					<div>
+						<h2><a href="#">Principios para escrever CSS de forma consistente</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Acessibilidade</a>
+					<div>
+						<h2><a href="#">Underscore.js: cinto de utilidades Javascript</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+			</ul>
+		</nav>
+
+		<nav id="listComments" class="list">
+			<ul>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>21</b> Set</time>
+					<a href="#" class="categ">Internet Móvel</a>
+					<div>
+						<h2><a href="#">COMENTADOS Cuidado com invasões no Wordpress</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">CSS3</a>
+					<div>
+						<h2><a href="#">Underscore.js: cinto de utilidades Javascript</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>21</b> Set</time>
+					<a href="#" class="categ">Javascript</a>
+					<div>
+						<h2><a href="#">Principios para escrever CSS de forma consistente</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author"> Gabriel Nascimento</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">JQuery</a>
+					<div>
+						<h2><a href="#">Principios para escrever CSS de forma consistente</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Acessibilidade</a>
+					<div>
+						<h2><a href="#">Retina.js - Imagens para telas retina</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+			</ul>
+		</nav>
+
+		<nav id="listPopulars" class="list">
+			<ul>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Internet Móvel</a>
+					<div>
+						<h2><a href="#">POPULARES Cuidado com invasões no Wordpress</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>03</b> Set</time>
+					<a href="#" class="categ">CSS3</a>
+					<div>
+						<h2><a href="#">Principios para escrever CSS de forma consistente</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Javascript</a>
+					<div>
+						<h2><a href="#">Retina.js - Imagens para telas retina</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author"> Gabriel Nascimento</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>03</b> Set</time>
+					<a href="#" class="categ">JQuery</a>
+					<div>
+						<h2><a href="#">Underscore.js: cinto de utilidades Javascript</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+				<li>
+					<time datetime="2013-10-13 19:00"><b>18</b> Set</time>
+					<a href="#" class="categ">Acessibilidade</a>
+					<div>
+						<h2><a href="#">Principios para escrever CSS de forma consistente</a></h2>
+						<p><a href="#">O Wordpress não é perfeito e possui falhas, tome cuidado com invasões.</a></p>
+					</div>
+					<span class="author">Por <a href="#" rel="author">Diego Eis</a></span>
+				</li>
+			</ul>
+		</nav>
+		<a href="#" class="lnkMore">Mais artigos</a>
+	</div>
+	</section>
+
+	<footer class="rodape">
+	<div class="limit">
+		<h1 class="logo"><a href="#">Tableless Padrões Web</a> <span>© 2012 Tableless</span></h1>
+
+		<nav>
+			<h4>Serviços</h4>
+			<ul>
+				<li><a href="#">Criação de Design</a></li>
+				<li><a href="#">Wordpress</a></li>
+				<li><a href="#">Código Front-end</a></li>
+				<li><a href="#">Aula particular</a></li>
+				<li><a href="#">Treinamento para empresas</a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<h4>O Tableless</h4>
+			<ul>
+				<li><a href="#">Sobre nós</a></li>
+				<li><a href="#">Junte-se a nós</a></li>
+				<li><a href="#">Anuncie aqui</a></li>
+				<li><a href="#">Fale conosco</a></li>
+			</ul>
+		</nav>
+
+		<nav>
+			<h4>Siga o Tableless</h4>
+			<ul>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Google +</a></li>
+				<li><a href="#">Newsletter</a></li>
+				<li><a href="#">Feed</a></li>
+			</ul>
+		</nav>
+
+		<div class="newsletter">
+			<h4>Assine a Newsletter</h4>
+			<form action="">
+				<input type="text" placeholder="Nome">
+				<input type="email" placeholder="Email">
+				<input type="submit" value="Ok">
+			</form>
+		</div>
+
+	</div>
+	</footer>
+
+</div>
+
+</body>
+</html>
